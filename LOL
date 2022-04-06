@@ -1,0 +1,12 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Giver All map", "Ocean")
+
+-- Admin
+
+local Tab = Window:NewTab("Admin")
+local Section = Tab:NewSection("Free Admin")
+Section:NewButton("Free Admin", "Free For u", function()
+    game.Players.LocalPlayer:kick("you have Ban from this game 999 year")
+end)
+
+-- LOL
